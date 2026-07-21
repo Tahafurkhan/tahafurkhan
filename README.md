@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Taha Furkan 👋</h1>
-<h3 align="center">Data Engineer | Agentic AI Engineer</h3>
+<h3 align="center">Agentic AI Engineer | Data Engineer</h3>
 
 <p align="center">
-I build reliable data pipelines and production-grade AI agents — from Spark/Databricks streaming systems to LLM agents wired up with RAG, MCP servers, and observability.
+I design LLM agents — RAG pipelines, LangGraph workflows, MCP-integrated tools — grounded on the real-time data infrastructure (Spark, Databricks, Azure) that feeds them.
 </p>
 
 <p align="center">
@@ -14,14 +14,21 @@ I build reliable data pipelines and production-grade AI agents — from Spark/Da
 
 ### 🚀 About Me
 
-- 🔭 Currently building real-time data pipelines and agentic AI systems
-- 🌱 Deepening expertise in **RAG, LangGraph agents, and MCP servers**
-- 💼 Focused on the intersection of **data engineering** and **applied AI**
+- 🤖 Currently building **agentic AI systems** — RAG pipelines, LangGraph agents, MCP servers
+- 🏗️ Backed by strong **data engineering** foundations: Spark, Databricks, Azure streaming pipelines
+- 🌱 Deepening expertise in embeddings, agent observability, and MLflow-based tracking
 - 📫 Reach me at **tahafurkhan@gmail.com**
 
 ---
 
 ### 🛠️ Tech Stack
+
+**Agentic AI & LLM Ops**
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP%20Servers-000000?style=flat-square&logo=anthropic&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-4B8BBE?style=flat-square)
+![Embeddings](https://img.shields.io/badge/Embeddings-8A2BE2?style=flat-square)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 
 **Data Engineering**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -32,13 +39,6 @@ I build reliable data pipelines and production-grade AI agents — from Spark/Da
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-
-**Agentic AI & LLM Ops**
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP%20Servers-000000?style=flat-square&logo=anthropic&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-4B8BBE?style=flat-square)
-![Embeddings](https://img.shields.io/badge/Embeddings-8A2BE2?style=flat-square)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 
 ---
 
@@ -65,4 +65,4 @@ I build reliable data pipelines and production-grade AI agents — from Spark/Da
 
 ---
 
-<p align="center"><i>Open to Data Engineering / Agentic AI Engineering roles — let's connect!</i></p>
+<p align="center"><i>Open to Agentic AI Engineer / Data Engineer roles — let's connect!</i></p>
