@@ -12,8 +12,17 @@
   <img src="https://img.shields.io/badge/Open_to-Senior%20%2F%20Staff%20Data%20%26%20AI%20Platform%20Roles-1a1a2e?style=for-the-badge&logo=databricks&logoColor=FF3621"/>
 </p>
 
-<img src="https://img.shields.io/badge/Data%20Engineering-meets-2C5364?style=flat-square" />
-<img src="https://img.shields.io/badge/Agentic%20AI-00C6FF?style=flat-square" />
+<table>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/🏗️_DATA_ENGINEER-0F2027?style=for-the-badge&labelColor=0F2027&color=00C6FF"/></td>
+<td align="center">✕</td>
+<td align="center"><img src="https://img.shields.io/badge/🤖_AGENTIC_AI_ENGINEER-1a0f2e?style=for-the-badge&labelColor=1a0f2e&color=B084FF"/></td>
+<td align="center">=</td>
+<td align="center"><img src="https://img.shields.io/badge/✨_AGENTIC_AI_DATA_ENGINEER-101820?style=for-the-badge&labelColor=101820&color=FFD700"/></td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:7C3AED,100:00c6ff&height=4&width=1000" width="70%"/>
 
 </div>
 
@@ -29,40 +38,106 @@ My work sits on three pillars:
 |---|---|---|
 | Spark, PySpark, Databricks, Delta Lake, Unity Catalog, Auto Loader, DLT, dbt, Airflow, Kafka, Structured Streaming | Medallion Architecture, real-time streaming, batch ETL, data governance & quality, CI/CD, Docker, GitHub Actions, IaC | LangGraph, LangChain, LangSmith, MCP servers, tool/function calling, multi-agent systems, RAG, MLflow, Databricks AI Apps |
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:7C3AED,100:00c6ff&height=3&width=1000" width="100%"/>
 
-## 🏛️ Platform Architecture
+<div align="center">
+
+## ⚡ The Convergence — Where Two Disciplines Become One
+
+</div>
+
+```mermaid
+flowchart LR
+    subgraph DE["🏗️ DATA ENGINEER"]
+        direction TB
+        D1(("Azure &<br/>Databricks"))
+        D2(("Spark &<br/>Delta Lake"))
+        D3(("Streaming &<br/>Governance"))
+        D1 --- D2 --- D3
+    end
+
+    subgraph CORE["✨ AGENTIC AI DATA ENGINEER"]
+        direction TB
+        X((("🧬<br/>Autonomous<br/>Intelligent<br/>Platforms")))
+    end
+
+    subgraph AI["🤖 AGENTIC AI ENGINEER"]
+        direction TB
+        A1(("LangGraph &<br/>MCP"))
+        A2(("RAG &<br/>Vector Search"))
+        A3(("MLflow &<br/>Observability"))
+        A1 --- A2 --- A3
+    end
+
+    DE ==>|"reliable, governed data"| CORE
+    AI ==>|"reasoning & autonomy"| CORE
+    CORE ==>|"ships production systems"| OUT(["🚀 Enterprise Impact"])
+
+    classDef de fill:#0F2027,color:#00C6FF,stroke:#00C6FF,stroke-width:2px;
+    classDef ai fill:#1a0f2e,color:#B084FF,stroke:#B084FF,stroke-width:2px;
+    classDef core fill:#101820,color:#FFD700,stroke:#FFD700,stroke-width:3px;
+    classDef out fill:#111,color:#fff,stroke:#00C6FF,stroke-width:2px;
+
+    class D1,D2,D3 de
+    class A1,A2,A3 ai
+    class X core
+    class OUT out
+```
+
+<div align="center">
+<sub>Two disciplines. One engineer. Data pipelines that don't just move data — they <b>reason</b> over it, <b>act</b> on it, and <b>govern</b> it.</sub>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:7C3AED,100:00c6ff&height=3&width=1000" width="100%"/>
+
+<div align="center">
+
+## 🏛️ Reference Architecture — Lakehouse ⇄ Agent Layer
+
+</div>
 
 ```mermaid
 flowchart TD
-    A[Azure Event Hub] --> B[Spark Structured Streaming]
-    B --> C[Databricks Auto Loader]
-    C --> D[Bronze Delta Table]
-    D --> E[Silver Delta Table]
-    E --> F[Gold Delta Table]
-    F --> G[Unity Catalog Governance]
-    G --> H[MLflow Models]
-    G --> I[Analytics / BI]
-    H --> J[Agentic AI Layer — LangGraph + MCP]
-    I --> J
-    J --> K[Tool Calling / Function Calling]
-    K --> L[Enterprise Users]
+    subgraph L1[" "]
+        direction LR
+        EH[Azure Event Hub / Kafka] --> SS[Spark Structured Streaming]
+        SS --> AL[Databricks Auto Loader]
+    end
 
-    style A fill:#0F2027,color:#fff,stroke:#00C6FF
-    style B fill:#203A43,color:#fff,stroke:#00C6FF
-    style C fill:#2C5364,color:#fff,stroke:#00C6FF
-    style D fill:#CD7F32,color:#000,stroke:#00C6FF
-    style E fill:#C0C0C0,color:#000,stroke:#00C6FF
-    style F fill:#FFD700,color:#000,stroke:#00C6FF
-    style G fill:#1a1a2e,color:#fff,stroke:#00C6FF
-    style H fill:#0194E2,color:#fff,stroke:#00C6FF
-    style I fill:#0194E2,color:#fff,stroke:#00C6FF
-    style J fill:#7C3AED,color:#fff,stroke:#00C6FF
-    style K fill:#7C3AED,color:#fff,stroke:#00C6FF
-    style L fill:#111,color:#fff,stroke:#00C6FF
+    subgraph LAKE["🏗️ DATA ENGINEERING — Governed Lakehouse"]
+        direction LR
+        BR[🟫 Bronze<br/>Raw] --> SI[⬜ Silver<br/>Cleansed] --> GO[🟨 Gold<br/>Curated]
+        GO --> UC[🔐 Unity Catalog<br/>Governance & Quality]
+    end
+
+    subgraph AGENTS["🤖 AGENTIC AI — Reasoning Layer"]
+        direction LR
+        MF[📊 MLflow<br/>Model & Prompt Registry] --> LG[🧠 LangGraph<br/>Multi-Agent Orchestration]
+        LG --> MCP[🔌 MCP Servers<br/>Tool / Function Calling]
+        MCP --> RAG[📚 RAG<br/>Vector + Hybrid Search]
+    end
+
+    L1 --> LAKE
+    UC ==>|"trusted, governed data"| MF
+    RAG ==>|"grounded answers"| USR
+
+    USR(["👤 Enterprise Users &<br/>Autonomous Decisions"])
+
+    style EH fill:#0F2027,color:#fff,stroke:#00C6FF
+    style SS fill:#203A43,color:#fff,stroke:#00C6FF
+    style AL fill:#2C5364,color:#fff,stroke:#00C6FF
+    style BR fill:#8B5E34,color:#fff,stroke:#00C6FF
+    style SI fill:#C0C0C0,color:#000,stroke:#00C6FF
+    style GO fill:#FFD700,color:#000,stroke:#00C6FF
+    style UC fill:#1a1a2e,color:#00C6FF,stroke:#00C6FF
+    style MF fill:#0194E2,color:#fff,stroke:#B084FF
+    style LG fill:#1C3C3C,color:#fff,stroke:#B084FF
+    style MCP fill:#000000,color:#fff,stroke:#B084FF
+    style RAG fill:#4B2E83,color:#fff,stroke:#B084FF
+    style USR fill:#111,color:#fff,stroke:#FFD700,stroke-width:2px
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:7C3AED,100:00c6ff&height=3&width=1000" width="100%"/>
 
 ## 🤖 Agentic AI Showcase
 
@@ -113,7 +188,7 @@ flowchart TD
 </tr>
 </table>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:7C3AED,100:00c6ff&height=3&width=1000" width="100%"/>
 
 ## 🛠️ Skills Dashboard
 
@@ -155,7 +230,7 @@ flowchart TD
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:7C3AED,100:00c6ff&height=3&width=1000" width="100%"/>
 
 ## 📌 Featured Projects
 
@@ -198,7 +273,7 @@ Autonomous agent layer that reasons over Lakehouse data, calls tools, and ground
 </tr>
 </table>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:7C3AED,100:00c6ff&height=3&width=1000" width="100%"/>
 
 ## 📊 GitHub Dashboard
 
@@ -229,7 +304,7 @@ SVG below — cannot be generated from a README edit alone.
 </p>
 -->
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:7C3AED,100:00c6ff&height=3&width=1000" width="100%"/>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:2C5364,100:0F2027&height=120&section=footer" width="100%"/>
