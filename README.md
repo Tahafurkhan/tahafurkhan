@@ -1,14 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00c6ff&height=220&section=header&text=Taha%20Furkan&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Agentic%20AI%20Data%20Engineer&descAlignY=58&descSize=20" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/light.svg">
+  <img alt="Taha Furkan — Agentic AI Data Engineer" src="assets/dark.svg" width="100%"/>
+</picture>
 
 <br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=900&color=00C6FF&center=true&vCenter=true&width=800&lines=Agentic+AI+Data+Engineer;Azure+Data+Engineer;Databricks+Engineer;Spark+%2B+PySpark+Developer;Streaming+Data+Architect;AI+Workflow+Engineer;LangGraph+Developer;RAG+System+Builder;MCP+Integration+Engineer;Intelligent+Data+Platform+Engineer)](https://git.io/typing-svg)
 
 <p>
   <a href="https://www.linkedin.com/in/developertaha"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:tahafurkhan@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://taha-portfolio-rust.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/Open_to-Senior%20%2F%20Staff%20Data%20%26%20AI%20Platform%20Roles-1a1a2e?style=for-the-badge&logo=databricks&logoColor=FF3621"/>
 </p>
 
